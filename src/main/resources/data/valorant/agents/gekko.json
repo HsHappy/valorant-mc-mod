@@ -1,0 +1,32 @@
+{
+  "id": "gekko",
+  "display_name": "Gekko",
+  "role": "Initiator",
+  "description": "Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again.",
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "id": "wingman",
+      "display_name": "Wingman",
+      "description": "EQUIP Wingman. FIRE to send Wingman forward seeking enemies. Wingman unleashes a concussive blast toward the first enemy he sees. ALT FIRE when targeting a Spike site or planted Spike to have Wingman defuse or plant the Spike. To plant, Gekko must have the Spike in his inventory. When Wingman expires he reverts into a dormant globule. INTERACT to reclaim the globule and gain another Wingman charge after a short cooldown."
+    },
+    {
+      "slot": "Ability2",
+      "id": "dizzy",
+      "display_name": "Dizzy",
+      "description": "EQUIP Dizzy. FIRE to send Dizzy soaring forward through the air. Dizzy charges then unleashes plasma blasts at enemies in line of sight. Enemies hit by her plasma are Blinded. When Dizzy expires she reverts into a dormant globule. INTERACT to reclaim the globule and gain another Dizzy charge after a short cooldown."
+    },
+    {
+      "slot": "Grenade",
+      "id": "mosh_pit",
+      "display_name": "Mosh Pit",
+      "description": "EQUIP Mosh. FIRE to throw Mosh like a grenade. ALT FIRE to lob. Upon landing Mosh duplicates across a large area that deals a small amount of damage over time then after a short delay explodes. INTERACT to reclaim the globule and gain another Mosh charge after a short cooldown."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "thrash",
+      "display_name": "Thrash",
+      "description": "EQUIP Thrash. FIRE to link with Thrash\u2019s mind and steer her through enemy territory. ACTIVATE to lunge forward and explode, Detaining any players in a small radius. When Thrash expires she reverts into a dormant globule. INTERACT to reclaim the globule and gain another Thrash charge after a short cooldown. Thrash can be reclaimed once."
+    }
+  ]
+}

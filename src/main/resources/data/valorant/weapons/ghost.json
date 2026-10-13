@@ -1,0 +1,34 @@
+{
+  "id": "ghost",
+  "display_name": "Ghost",
+  "category": "SIDEARMS",
+  "cost": 500,
+  "magazine_size": 13,
+  "fire_rate_rpm": 405.0,
+  "fire_rate_rps": 6.75,
+  "reload_time_seconds": 1.5,
+  "equip_time_seconds": 0.75,
+  "run_speed_multiplier": 0.85,
+  "first_bullet_accuracy": 0.3,
+  "wall_penetration": "Medium",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 30,
+      "head": 105,
+      "body": 30,
+      "leg": 25.5
+    },
+    {
+      "min_distance_meters": 30,
+      "max_distance_meters": 50,
+      "head": 87.5,
+      "body": 25,
+      "leg": 21.2
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

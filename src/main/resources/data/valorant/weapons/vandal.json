@@ -1,0 +1,27 @@
+{
+  "id": "vandal",
+  "display_name": "Vandal",
+  "category": "ASSAULT RIFLES",
+  "cost": 2900,
+  "magazine_size": 25,
+  "fire_rate_rpm": 585.0,
+  "fire_rate_rps": 9.75,
+  "reload_time_seconds": 2.5,
+  "equip_time_seconds": 1,
+  "run_speed_multiplier": 0.8,
+  "first_bullet_accuracy": 0.25,
+  "wall_penetration": "Medium",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 50,
+      "head": 160,
+      "body": 40,
+      "leg": 34
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

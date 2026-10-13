@@ -1,0 +1,38 @@
+{
+  "id": "astra",
+  "display_name": "Astra",
+  "role": "Controller",
+  "description": "Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move.",
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "id": "nova_pulse",
+      "display_name": "Nova Pulse",
+      "description": "Place Stars in Astral Form (Ultimate Key).\r\n\r\nACTIVATE a Star to detonate a Nova Pulse. The Nova Pulse charges briefly then strikes, Concussing all players in its area."
+    },
+    {
+      "slot": "Ability2",
+      "id": "nebula____dissipate",
+      "display_name": "Nebula  / Dissipate",
+      "description": "Place Stars in Astral Form (Ultimate Key). \r\n\r\nACTIVATE a Star to transform it into a Nebula (smoke).\r\n\r\nUSE a Star to Dissipate it, returning the Star to be placed in a new location after a delay.\r\n\r\nDissipate briefly forms a fake Nebula at the Star's location before returning."
+    },
+    {
+      "slot": "Grenade",
+      "id": "gravity_well",
+      "display_name": "Gravity Well",
+      "description": "Place Stars in Astral Form (Ultimate Key).\r\n\r\nACTIVATE a Star to form a Gravity Well. Players in the area are pulled toward the center before it explodes, making all players still trapped inside Vulnerable."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "astral_form___cosmic_divide",
+      "display_name": "Astral Form / Cosmic Divide",
+      "description": "ACTIVATE to enter Astral Form where you can place Stars with FIRE. Stars can be reactivated later, transforming them into a Nova Pulse, Nebula, or Gravity Well.\r\n\r\nWhen Cosmic Divide is charged, use ALT FIRE in Astral Form to begin aiming it, then FIRE to select two locations. An infinite Cosmic Divide connects the two points you select. Cosmic Divide blocks bullets and sound."
+    },
+    {
+      "slot": "Passive",
+      "id": "astral_form",
+      "display_name": "Astral Form",
+      "description": "ACTIVATE Ultimate to enter Astral Form and PRIMARY FIRE to place Stars. Target Stars with your Nova Pulse, Nebula, or Gravity Well to use those abilities."
+    }
+  ]
+}

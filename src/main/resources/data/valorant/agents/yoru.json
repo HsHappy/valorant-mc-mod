@@ -1,0 +1,32 @@
+{
+  "id": "yoru",
+  "display_name": "Yoru",
+  "role": "Duelist",
+  "description": "Japanese native Yoru rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.",
+  "abilities": [
+    {
+      "slot": "Grenade",
+      "id": "fakeout",
+      "display_name": "FAKEOUT",
+      "description": "EQUIP an echo that transforms into a mirror image of Yoru when activated. FIRE to instantly activate the mirror image and send it forward. ALT FIRE to place an inactive echo. USE to transform an inactive echo into a mirror image and send it forward.  Mirror images explode in a Blinding flash when destroyed by enemies."
+    },
+    {
+      "slot": "Ability1",
+      "id": "blindside",
+      "display_name": "BLINDSIDE",
+      "description": "EQUIP to rip an unstable dimensional fragment from reality. FIRE to throw the fragment, activating a flash that winds up once it collides with a hard surface."
+    },
+    {
+      "slot": "Ability2",
+      "id": "gatecrash",
+      "display_name": "GATECRASH",
+      "description": "EQUIP a rift tether FIRE to send the tether forward. ALT FIRE to place a stationary tether. ACTIVATE to teleport to the tether's location. USE to trigger a fake teleport. GATECRASH resets a charge every two kills."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "dimensional_drift",
+      "display_name": "DIMENSIONAL DRIFT",
+      "description": "EQUIP a mask that can see between dimensions. FIRE to drift into Yoru's dimension, unable to be affected or seen by enemies from the outside. REACTIVATE to exit Yoru's dimension early."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "stinger",
+  "display_name": "Stinger",
+  "category": "SMGS",
+  "cost": 1100,
+  "magazine_size": 20,
+  "fire_rate_rpm": 960,
+  "fire_rate_rps": 16,
+  "reload_time_seconds": 2.25,
+  "equip_time_seconds": 0.75,
+  "run_speed_multiplier": 0.85,
+  "first_bullet_accuracy": 0.65,
+  "wall_penetration": "Low",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 15,
+      "head": 67.5,
+      "body": 27,
+      "leg": 22.9
+    },
+    {
+      "min_distance_meters": 15,
+      "max_distance_meters": 50,
+      "head": 57,
+      "body": 23,
+      "leg": 19
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "miks",
+  "display_name": "Miks",
+  "role": "Controller",
+  "description": "Straight from Croatia, Miks takes the stage channeling pure sound energy. With his infectious passion and sonic powers, he rallies his squad to move as one as they set the tempo on the battlefield together.",
+  "abilities": [
+    {
+      "slot": "Grenade",
+      "id": "m_pulse",
+      "display_name": "M-pulse",
+      "description": "EQUIP M-pulse. ALT-FIRE to toggle between Concuss and Healing outputs. FIRE to throw the device. Upon landing, M-pulse sends out sound waves, either Concussing or Healing players."
+    },
+    {
+      "slot": "Ability2",
+      "id": "waveform",
+      "display_name": "Waveform",
+      "description": "EQUIP a Map Targeter. FIRE to set locations. ALT-FIRE to spawn Smokes at selected locations."
+    },
+    {
+      "slot": "Ability1",
+      "id": "harmonize",
+      "display_name": "Harmonize",
+      "description": "EQUIP Harmonize. Target an ally and FIRE to activate a Combat Stim and a speed boost on yourself and the ally that refreshes with each kill. ALT-FIRE to grant Combat Stim and speed boost to yourself."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "bassquake",
+      "display_name": "Bassquake",
+      "description": "EQUIP Bassquake. FIRE to build up and unleash Sonic Radiance forward, knocking back, Deafening, and Slowing players."
+    }
+  ]
+}

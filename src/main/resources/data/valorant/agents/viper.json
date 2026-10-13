@@ -1,0 +1,38 @@
+{
+  "id": "viper",
+  "display_name": "Viper",
+  "role": "Controller",
+  "description": "The American Chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and choke the enemy's vision. If the toxins don't kill her prey, her mindgames surely will.",
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "id": "poison_cloud",
+      "display_name": "Poison Cloud",
+      "description": "EQUIP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round. ALT FIRE to lob. RE-USE the ability to create a toxic gas cloud that Decays opponents inside it at the cost of fuel. This ability can be picked up to be REDEPLOYED before the round starts and can be RE-USED more than once throughout the round."
+    },
+    {
+      "slot": "Ability2",
+      "id": "toxic_screen",
+      "display_name": "Toxic Screen",
+      "description": "EQUIP a gas emitter launcher that penetrates terrain. FIRE to deploy a long line of gas emitters. RE-USE the ability to create a tall wall of toxic gas that Decays opponents that cross it at the cost of fuel. This ability can be RE-USED more than once."
+    },
+    {
+      "slot": "Grenade",
+      "id": "snake_bite",
+      "display_name": "Snake Bite",
+      "description": "EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and applies Vulnerable."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "viper_s_pit",
+      "display_name": "Viper's Pit",
+      "description": "EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper, creating a large cloud that Nearsights players and Decays the health of enemies inside of it. HOLD the ability key to disperse the cloud early."
+    },
+    {
+      "slot": "Passive",
+      "id": "toxic",
+      "display_name": "Toxic",
+      "description": "You gradually generate and replenish the toxin that fuels your abilities.  Enemies that cross through Viper's Poison Cloud, Toxic Screen, or Viper's Pit are instantly inflicted with at least 30 Decay. Their Decay level increases the longer they remain in contact with it."
+    }
+  ]
+}

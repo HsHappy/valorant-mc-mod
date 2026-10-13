@@ -1,0 +1,11 @@
+{
+  "id": "melee",
+  "display_name": "Melee",
+  "category": "MELEE",
+  "cost": 0,
+  "damage": {
+    "left_click": 50,
+    "right_click": 75,
+    "backstab_multiplier": 2.0
+  }
+}

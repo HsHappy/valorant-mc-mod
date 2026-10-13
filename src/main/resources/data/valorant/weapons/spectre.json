@@ -1,0 +1,41 @@
+{
+  "id": "spectre",
+  "display_name": "Spectre",
+  "category": "SMGS",
+  "cost": 1600,
+  "magazine_size": 30,
+  "fire_rate_rpm": 800.0,
+  "fire_rate_rps": 13.333,
+  "reload_time_seconds": 2.25,
+  "equip_time_seconds": 0.75,
+  "run_speed_multiplier": 0.85,
+  "first_bullet_accuracy": 0.4,
+  "wall_penetration": "Low",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 15,
+      "head": 78,
+      "body": 26,
+      "leg": 22.1
+    },
+    {
+      "min_distance_meters": 15,
+      "max_distance_meters": 30,
+      "head": 66,
+      "body": 22,
+      "leg": 18.7
+    },
+    {
+      "min_distance_meters": 30,
+      "max_distance_meters": 50,
+      "head": 60,
+      "body": 20,
+      "leg": 17
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "sheriff",
+  "display_name": "Sheriff",
+  "category": "SIDEARMS",
+  "cost": 800,
+  "magazine_size": 6,
+  "fire_rate_rpm": 240,
+  "fire_rate_rps": 4,
+  "reload_time_seconds": 2.25,
+  "equip_time_seconds": 1,
+  "run_speed_multiplier": 0.8,
+  "first_bullet_accuracy": 0.25,
+  "wall_penetration": "High",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 30,
+      "head": 159.5,
+      "body": 55,
+      "leg": 46.8
+    },
+    {
+      "min_distance_meters": 30,
+      "max_distance_meters": 50,
+      "head": 145,
+      "body": 50,
+      "leg": 42.5
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

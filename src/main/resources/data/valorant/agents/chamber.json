@@ -1,0 +1,32 @@
+{
+  "id": "chamber",
+  "display_name": "Chamber",
+  "role": "Sentinel",
+  "description": "Well-dressed and well-armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.",
+  "abilities": [
+    {
+      "slot": "Ability2",
+      "id": "rendezvous",
+      "display_name": "Rendezvous",
+      "description": "EQUIP a teleport anchor. FIRE to place it on the ground. While on the ground and in range of the anchor, REACTIVATE to quickly teleport to the anchor. The anchor can be picked up to be REDEPLOYED."
+    },
+    {
+      "slot": "Grenade",
+      "id": "trademark",
+      "display_name": "Trademark",
+      "description": "EQUIP a trap that scans for enemies. FIRE to place it on the ground. When a visible enemy comes in range, the trap counts down and then destabilizes the terrain around them, creating a lingering field that Slows players caught inside of it. The trap can be picked up to be REDEPLOYED."
+    },
+    {
+      "slot": "Ability1",
+      "id": "headhunter",
+      "display_name": "Headhunter",
+      "description": "ACTIVATE to equip a heavy pistol. ALT FIRE with the pistol equipped to aim down sights."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "tour_de_force",
+      "display_name": "Tour De Force",
+      "description": "ACTIVATE to summon a powerful, custom sniper rifle that will kill an enemy with any direct hit to the upper body. ALT FIRE to aim down sights. Killing an enemy creates a lingering field that Slows players caught inside of it."
+    }
+  ]
+}

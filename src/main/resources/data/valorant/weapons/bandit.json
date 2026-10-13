@@ -1,0 +1,41 @@
+{
+  "id": "bandit",
+  "display_name": "Bandit",
+  "category": "SIDEARMS",
+  "cost": 600,
+  "magazine_size": 8,
+  "fire_rate_rpm": 306.0,
+  "fire_rate_rps": 5.1,
+  "reload_time_seconds": 1.5,
+  "equip_time_seconds": 0.75,
+  "run_speed_multiplier": 0.85,
+  "first_bullet_accuracy": 0.275,
+  "wall_penetration": "Medium",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 10,
+      "head": 152,
+      "body": 39,
+      "leg": 33
+    },
+    {
+      "min_distance_meters": 10,
+      "max_distance_meters": 30,
+      "head": 128,
+      "body": 39,
+      "leg": 33
+    },
+    {
+      "min_distance_meters": 30,
+      "max_distance_meters": 50,
+      "head": 112,
+      "body": 34,
+      "leg": 28
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

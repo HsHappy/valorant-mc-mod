@@ -1,0 +1,32 @@
+{
+  "id": "neon",
+  "display_name": "Neon",
+  "role": "Duelist",
+  "description": "Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard then strikes them down quicker than lightning.",
+  "abilities": [
+    {
+      "slot": "Ability2",
+      "id": "high_gear",
+      "display_name": "High Gear",
+      "description": "INSTANTLY channel Neon\u2019s power for Increased Speed. When charged, ALT FIRE to trigger an electric slide dash. Slide charge resets every two kills."
+    },
+    {
+      "slot": "Ability1",
+      "id": "relay_bolt",
+      "display_name": "Relay Bolt",
+      "description": "INSTANTLY throw an energy bolt that bounces once. Upon hitting each surface, the bolt electrifies the ground below with a Concussive blast."
+    },
+    {
+      "slot": "Grenade",
+      "id": "fast_lane",
+      "display_name": "Fast Lane",
+      "description": "FIRE two energy lines forward on the ground that extend a short distance or until they hit a surface. The lines rise into walls of static electricity that block vision."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "overdrive",
+      "display_name": "Overdrive",
+      "description": "Unleash Neon\u2019s full power and speed for a short duration, regaining all her fuel and a slide charge. FIRE to channel the power into a deadly lightning beam with high movement accuracy. Kills reset the duration of the effect. "
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "guardian",
+  "display_name": "Guardian",
+  "category": "ASSAULT RIFLES",
+  "cost": 2250,
+  "magazine_size": 12,
+  "fire_rate_rpm": 315.0,
+  "fire_rate_rps": 5.25,
+  "reload_time_seconds": 2.5,
+  "equip_time_seconds": 1,
+  "run_speed_multiplier": 0.8,
+  "first_bullet_accuracy": 0.1,
+  "wall_penetration": "High",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 50,
+      "head": 195,
+      "body": 65,
+      "leg": 48.8
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

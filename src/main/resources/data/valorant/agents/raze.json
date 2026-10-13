@@ -1,0 +1,32 @@
+{
+  "id": "raze",
+  "display_name": "Raze",
+  "role": "Duelist",
+  "description": "Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of \"boom.\"",
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "id": "blast_pack",
+      "display_name": "Blast Pack",
+      "description": "INSTANTLY throw a Blast Pack that will stick to surfaces. RE-USE the ability after deployment to detonate, moving anything hit and dealing damage if fully armed."
+    },
+    {
+      "slot": "Ability2",
+      "id": "paint_shells",
+      "display_name": "Paint Shells",
+      "description": "EQUIP a cluster grenade. FIRE to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range. ALT FIRE to lob. Paint Shells charge resets every two kills."
+    },
+    {
+      "slot": "Grenade",
+      "id": "boom_bot",
+      "display_name": "Boom Bot",
+      "description": "EQUIP a Boom Bot. FIRE will deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls. The Boom Bot will lock on to any enemies in its frontal cone and chase them, exploding for heavy damage if it reaches them."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "showstopper",
+      "display_name": "Showstopper",
+      "description": "EQUIP a rocket launcher. FIRE to shoot a rocket that does massive area damage on contact with anything."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+# =====================================================================
+# Gradle & Build Output
+# =====================================================================
+.gradle/
+build/
+out/
+classes/
+bin/
+.loom/
+.fabric/
+
+# Archives & Binaries (keep gradle wrapper jar)
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# =====================================================================
+# Minecraft / Fabric Run Directory
+# =====================================================================
+run/
+runClient/
+runServer/
+runData/
+
+# =====================================================================
+# IDEs and Editors
+# =====================================================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Eclipse
+.settings/
+.classpath
+.project
+*.launch
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+
+# =====================================================================
+# OS-Specific Files
+# =====================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux / Unix
+*~
+.fuse_hidden*
+
+# =====================================================================
+# Java & Logs
+# =====================================================================
+*.class
+*.log
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# =====================================================================
+# Secrets & Local Configurations
+# =====================================================================
+.env
+.env.*
+*.key
+*.keystore
+*.jks
+local.properties
+secret.properties
+credentials.json

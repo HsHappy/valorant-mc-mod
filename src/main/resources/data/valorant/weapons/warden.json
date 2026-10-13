@@ -1,0 +1,27 @@
+{
+  "id": "warden",
+  "display_name": "Warden",
+  "category": "RIFLES",
+  "cost": 2900,
+  "magazine_size": 18,
+  "fire_rate_rpm": 390.0,
+  "fire_rate_rps": 6.5,
+  "reload_time_seconds": 2.5,
+  "equip_time_seconds": 1,
+  "run_speed_multiplier": 0.8,
+  "first_bullet_accuracy": 0.15,
+  "wall_penetration": "Medium",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 50,
+      "head": 200,
+      "body": 50,
+      "leg": 42
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "brimstone",
+  "display_name": "Brimstone",
+  "role": "Controller",
+  "description": "Joining from the U.S.A., Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.",
+  "abilities": [
+    {
+      "slot": "Grenade",
+      "id": "stim_beacon",
+      "display_name": "Stim Beacon",
+      "description": "INSTANTLY toss down a stim beacon. Upon landing, it creates a field that grants players a Combat Stim and a Speed Boost."
+    },
+    {
+      "slot": "Ability1",
+      "id": "incendiary",
+      "display_name": "Incendiary",
+      "description": "EQUIP an incendiary grenade launcher. FIRE to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone."
+    },
+    {
+      "slot": "Ability2",
+      "id": "sky_smoke",
+      "display_name": "Sky Smoke",
+      "description": "EQUIP a tactical map. FIRE to set locations where Brimstone's smoke clouds will land. ALT FIRE to confirm, launching long-lasting smoke clouds that block vision in the selected area."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "orbital_strike",
+      "display_name": "Orbital Strike",
+      "description": "EQUIP a tactical map. FIRE to launch a lingering orbital strike laser at the selected location, dealing high damage-over-time to players caught in the selected area."
+    }
+  ]
+}

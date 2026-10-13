@@ -1,0 +1,41 @@
+{
+  "id": "bucky",
+  "display_name": "Bucky",
+  "category": "SHOTGUNS",
+  "cost": 850,
+  "magazine_size": 5,
+  "fire_rate_rpm": 66.0,
+  "fire_rate_rps": 1.1,
+  "reload_time_seconds": 2.5,
+  "equip_time_seconds": 1,
+  "run_speed_multiplier": 0.75,
+  "first_bullet_accuracy": 3,
+  "wall_penetration": "Low",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 8,
+      "head": 34,
+      "body": 17,
+      "leg": 14
+    },
+    {
+      "min_distance_meters": 8,
+      "max_distance_meters": 12,
+      "head": 26,
+      "body": 13,
+      "leg": 11.1
+    },
+    {
+      "min_distance_meters": 12,
+      "max_distance_meters": 50,
+      "head": 18,
+      "body": 9,
+      "leg": 7.7
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "shorty",
+  "display_name": "Shorty",
+  "category": "SIDEARMS",
+  "cost": 300,
+  "magazine_size": 2,
+  "fire_rate_rpm": 180,
+  "fire_rate_rps": 3,
+  "reload_time_seconds": 1.75,
+  "equip_time_seconds": 0.75,
+  "run_speed_multiplier": 0.8,
+  "first_bullet_accuracy": 4,
+  "wall_penetration": "Low",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 7,
+      "head": 22,
+      "body": 11,
+      "leg": 9.3
+    },
+    {
+      "min_distance_meters": 7,
+      "max_distance_meters": 15,
+      "head": 12,
+      "body": 6,
+      "leg": 5.1
+    },
+    {
+      "min_distance_meters": 15,
+      "max_distance_meters": 50,
+      "head": 6,
+      "body": 3,
+      "leg": 2.6
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "judge",
+  "display_name": "Judge",
+  "category": "SHOTGUNS",
+  "cost": 1850,
+  "magazine_size": 5,
+  "fire_rate_rpm": 210.0,
+  "fire_rate_rps": 3.5,
+  "reload_time_seconds": 2.2,
+  "equip_time_seconds": 1,
+  "run_speed_multiplier": 0.75,
+  "first_bullet_accuracy": 2.5,
+  "wall_penetration": "Low",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 10,
+      "head": 34,
+      "body": 17,
+      "leg": 14.5
+    },
+    {
+      "min_distance_meters": 10,
+      "max_distance_meters": 15,
+      "head": 20,
+      "body": 10,
+      "leg": 8.5
+    },
+    {
+      "min_distance_meters": 15,
+      "max_distance_meters": 50,
+      "head": 14,
+      "body": 7,
+      "leg": 6.0
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

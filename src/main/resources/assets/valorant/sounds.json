@@ -1,0 +1,359 @@
+{
+  "weapon.vandal.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.vandal.fire",
+    "sounds": [
+      "valorant:weapons/vandal/fire_1",
+      "valorant:weapons/vandal/fire_2",
+      "valorant:weapons/vandal/fire_3",
+      "valorant:weapons/vandal/fire_4",
+      "valorant:weapons/vandal/fire_5"
+    ]
+  },
+  "weapon.phantom.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.phantom.fire",
+    "sounds": [
+      "valorant:weapons/phantom/fire_1",
+      "valorant:weapons/phantom/fire_2",
+      "valorant:weapons/phantom/fire_3",
+      "valorant:weapons/phantom/fire_4",
+      "valorant:weapons/phantom/fire_5"
+    ]
+  },
+  "weapon.classic.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.classic.fire",
+    "sounds": [
+      "valorant:weapons/classic/fire_1",
+      "valorant:weapons/classic/fire_2",
+      "valorant:weapons/classic/fire_3",
+      "valorant:weapons/classic/fire_4",
+      "valorant:weapons/classic/fire_5"
+    ]
+  },
+  "weapon.frenzy.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.frenzy.fire",
+    "sounds": [
+      "valorant:weapons/frenzy/fire_1",
+      "valorant:weapons/frenzy/fire_2",
+      "valorant:weapons/frenzy/fire_3",
+      "valorant:weapons/frenzy/fire_4",
+      "valorant:weapons/frenzy/fire_5"
+    ]
+  },
+  "weapon.ghost.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.ghost.fire",
+    "sounds": [
+      "valorant:weapons/ghost/fire_1",
+      "valorant:weapons/ghost/fire_2",
+      "valorant:weapons/ghost/fire_3",
+      "valorant:weapons/ghost/fire_4",
+      "valorant:weapons/ghost/fire_5"
+    ]
+  },
+  "weapon.sheriff.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.sheriff.fire",
+    "sounds": [
+      "valorant:weapons/sheriff/fire_1",
+      "valorant:weapons/sheriff/fire_2",
+      "valorant:weapons/sheriff/fire_3",
+      "valorant:weapons/sheriff/fire_4",
+      "valorant:weapons/sheriff/fire_5"
+    ]
+  },
+  "weapon.shorty.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.shorty.fire",
+    "sounds": [
+      "valorant:weapons/shorty/fire_1",
+      "valorant:weapons/shorty/fire_2",
+      "valorant:weapons/shorty/fire_3"
+    ]
+  },
+  "weapon.stinger.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.stinger.fire",
+    "sounds": [
+      "valorant:weapons/stinger/fire_1",
+      "valorant:weapons/stinger/fire_2",
+      "valorant:weapons/stinger/fire_3",
+      "valorant:weapons/stinger/fire_4",
+      "valorant:weapons/stinger/fire_5"
+    ]
+  },
+  "weapon.marshal.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.marshal.fire",
+    "sounds": [
+      "valorant:weapons/marshal/fire_1",
+      "valorant:weapons/marshal/fire_2",
+      "valorant:weapons/marshal/fire_3",
+      "valorant:weapons/marshal/fire_4"
+    ]
+  },
+  "weapon.spectre.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.spectre.fire",
+    "sounds": [
+      "valorant:weapons/spectre/fire_1",
+      "valorant:weapons/spectre/fire_2",
+      "valorant:weapons/spectre/fire_3",
+      "valorant:weapons/spectre/fire_4",
+      "valorant:weapons/spectre/fire_5"
+    ]
+  },
+  "weapon.bucky.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.bucky.fire",
+    "sounds": [
+      "valorant:weapons/bucky/fire_1",
+      "valorant:weapons/bucky/fire_2",
+      "valorant:weapons/bucky/fire_3",
+      "valorant:weapons/bucky/fire_4"
+    ]
+  },
+  "weapon.judge.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.judge.fire",
+    "sounds": [
+      "valorant:weapons/judge/fire_1",
+      "valorant:weapons/judge/fire_2",
+      "valorant:weapons/judge/fire_3",
+      "valorant:weapons/judge/fire_4",
+      "valorant:weapons/judge/fire_5"
+    ]
+  },
+  "weapon.bulldog.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.bulldog.fire",
+    "sounds": [
+      "valorant:weapons/bulldog/fire_1",
+      "valorant:weapons/bulldog/fire_2",
+      "valorant:weapons/bulldog/fire_3",
+      "valorant:weapons/bulldog/fire_4",
+      "valorant:weapons/bulldog/fire_5"
+    ]
+  },
+  "weapon.guardian.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.guardian.fire",
+    "sounds": [
+      "valorant:weapons/guardian/fire_1",
+      "valorant:weapons/guardian/fire_2",
+      "valorant:weapons/guardian/fire_3",
+      "valorant:weapons/guardian/fire_4",
+      "valorant:weapons/guardian/fire_5"
+    ]
+  },
+  "weapon.outlaw.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.outlaw.fire",
+    "sounds": [
+      "valorant:weapons/outlaw/fire_1",
+      "valorant:weapons/outlaw/fire_2",
+      "valorant:weapons/outlaw/fire_3",
+      "valorant:weapons/outlaw/fire_4",
+      "valorant:weapons/outlaw/fire_5",
+      "valorant:weapons/outlaw/fire_6"
+    ]
+  },
+  "weapon.operator.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.operator.fire",
+    "sounds": [
+      "valorant:weapons/operator/fire_1",
+      "valorant:weapons/operator/fire_2",
+      "valorant:weapons/operator/fire_3",
+      "valorant:weapons/operator/fire_4",
+      "valorant:weapons/operator/fire_5"
+    ]
+  },
+  "weapon.ares.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.ares.fire",
+    "sounds": [
+      "valorant:weapons/ares/fire_1",
+      "valorant:weapons/ares/fire_2",
+      "valorant:weapons/ares/fire_3",
+      "valorant:weapons/ares/fire_4",
+      "valorant:weapons/ares/fire_5"
+    ]
+  },
+  "weapon.odin.fire": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.odin.fire",
+    "sounds": [
+      "valorant:weapons/odin/fire_1",
+      "valorant:weapons/odin/fire_2",
+      "valorant:weapons/odin/fire_3",
+      "valorant:weapons/odin/fire_4",
+      "valorant:weapons/odin/fire_5"
+    ]
+  },
+  "weapon.vandal.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.vandal.reload",
+    "sounds": [
+      "valorant:weapons/vandal/reload_1",
+      "valorant:weapons/vandal/reload_2",
+      "valorant:weapons/vandal/reload_3"
+    ]
+  },
+  "weapon.phantom.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.phantom.reload",
+    "sounds": [
+      "valorant:weapons/phantom/reload_1",
+      "valorant:weapons/phantom/reload_2",
+      "valorant:weapons/phantom/reload_3"
+    ]
+  },
+  "weapon.frenzy.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.frenzy.reload",
+    "sounds": [
+      "valorant:weapons/frenzy/reload_1",
+      "valorant:weapons/frenzy/reload_2",
+      "valorant:weapons/frenzy/reload_3"
+    ]
+  },
+  "weapon.ghost.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.ghost.reload",
+    "sounds": [
+      "valorant:weapons/ghost/reload_1",
+      "valorant:weapons/ghost/reload_2",
+      "valorant:weapons/ghost/reload_3"
+    ]
+  },
+  "weapon.sheriff.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.sheriff.reload",
+    "sounds": [
+      "valorant:weapons/sheriff/reload_1",
+      "valorant:weapons/sheriff/reload_2",
+      "valorant:weapons/sheriff/reload_3"
+    ]
+  },
+  "weapon.shorty.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.shorty.reload",
+    "sounds": [
+      "valorant:weapons/shorty/reload_1",
+      "valorant:weapons/shorty/reload_2",
+      "valorant:weapons/shorty/reload_3"
+    ]
+  },
+  "weapon.bucky.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.bucky.reload",
+    "sounds": [
+      "valorant:weapons/bucky/reload_1",
+      "valorant:weapons/bucky/reload_2",
+      "valorant:weapons/bucky/reload_3"
+    ]
+  },
+  "weapon.judge.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.judge.reload",
+    "sounds": [
+      "valorant:weapons/judge/reload_1",
+      "valorant:weapons/judge/reload_2",
+      "valorant:weapons/judge/reload_3"
+    ]
+  },
+  "weapon.stinger.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.stinger.reload",
+    "sounds": [
+      "valorant:weapons/stinger/reload_1",
+      "valorant:weapons/stinger/reload_2",
+      "valorant:weapons/stinger/reload_3"
+    ]
+  },
+  "weapon.marshal.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.marshal.reload",
+    "sounds": [
+      "valorant:weapons/marshal/reload_1",
+      "valorant:weapons/marshal/reload_2",
+      "valorant:weapons/marshal/reload_3"
+    ]
+  },
+  "weapon.spectre.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.spectre.reload",
+    "sounds": [
+      "valorant:weapons/spectre/reload_1",
+      "valorant:weapons/spectre/reload_2",
+      "valorant:weapons/spectre/reload_3"
+    ]
+  },
+  "weapon.bulldog.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.bulldog.reload",
+    "sounds": [
+      "valorant:weapons/bulldog/reload_1",
+      "valorant:weapons/bulldog/reload_2",
+      "valorant:weapons/bulldog/reload_3"
+    ]
+  },
+  "weapon.guardian.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.guardian.reload",
+    "sounds": [
+      "valorant:weapons/guardian/reload_1",
+      "valorant:weapons/guardian/reload_2",
+      "valorant:weapons/guardian/reload_3"
+    ]
+  },
+  "weapon.outlaw.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.outlaw.reload",
+    "sounds": [
+      "valorant:weapons/outlaw/reload_1",
+      "valorant:weapons/outlaw/reload_2",
+      "valorant:weapons/outlaw/reload_3"
+    ]
+  },
+  "weapon.operator.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.operator.reload",
+    "sounds": [
+      "valorant:weapons/operator/reload_1",
+      "valorant:weapons/operator/reload_2",
+      "valorant:weapons/operator/reload_3"
+    ]
+  },
+  "weapon.ares.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.ares.reload",
+    "sounds": [
+      "valorant:weapons/ares/reload_1",
+      "valorant:weapons/ares/reload_2",
+      "valorant:weapons/ares/reload_3"
+    ]
+  },
+  "weapon.odin.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.odin.reload",
+    "sounds": [
+      "valorant:weapons/odin/reload_1",
+      "valorant:weapons/odin/reload_2",
+      "valorant:weapons/odin/reload_3"
+    ]
+  },
+  "weapon.reload": {
+    "category": "player",
+    "subtitle": "subtitles.valorant.weapon.reload",
+    "sounds": [
+      "valorant:weapons/vandal/reload_1",
+      "valorant:weapons/vandal/reload_2",
+      "valorant:weapons/vandal/reload_3"
+    ]
+  }
+}

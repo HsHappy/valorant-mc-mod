@@ -1,0 +1,32 @@
+{
+  "id": "harbor",
+  "display_name": "Harbor",
+  "role": "Controller",
+  "description": "Hailing from India\u2019s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him.",
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "id": "high_tide",
+      "display_name": "High Tide",
+      "description": "EQUIP High Tide. FIRE to send water forward along the ground. HOLD FIRE to guide the water towards your crosshair spawning a vision blocking Screen along the path. ALT FIRE to stop the water early. All players crossing High Tide are Slowed."
+    },
+    {
+      "slot": "Grenade",
+      "id": "storm_surge",
+      "display_name": "Storm Surge",
+      "description": "EQUIP Storm Surge. FIRE to throw, creating an explosive whirlpool that Slows and Nearsights players within it after a short duration."
+    },
+    {
+      "slot": "Ability2",
+      "id": "cove",
+      "display_name": "Cove",
+      "description": "EQUIP Cove. ACTIVATE to form a water Smoke in the select location. HOLD FIRE while targeting to move the marker further away and HOLD ALT FIRE to move it closer. RELOAD to toggle targeting view. REACTIVATE to Shield the water Smoke, blocking any bullets that hit it. The Shielded water Smoke can be destroyed."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "reckoning",
+      "display_name": "Reckoning",
+      "description": "EQUIP Reckoning. FIRE to unleash the full power of your artifact, releasing a surge of water that barrels forward to Nearsight and Slow enemies that are hit."
+    }
+  ]
+}

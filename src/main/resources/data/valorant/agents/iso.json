@@ -1,0 +1,32 @@
+{
+  "id": "iso",
+  "display_name": "Iso",
+  "role": "Duelist",
+  "description": "Chinese fixer for hire Iso falls into a flow state to dismantle the opposition. Reconfiguring ambient energy into bulletproof protection, he advances with focus towards his next duel to the death.",
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "id": "undercut",
+      "display_name": "Undercut",
+      "description": "EQUIP a molecular bolt. FIRE to throw it forward, briefly applying Vulnerable & Suppress to all players it touches. The bolt can pass through solid objects, including walls."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "kill_contract",
+      "display_name": "Kill Contract",
+      "description": "EQUIP an interdimensional arena. FIRE to hurl a column of energy through the battlefield, pulling and healing both you and the first enemy hit into the arena to duel to the death."
+    },
+    {
+      "slot": "Ability2",
+      "id": "double_tap",
+      "display_name": "Double Tap",
+      "description": "INSTANTLY start channeling your focus. Once focused: gain a shield which absorbs one instance of damage from any source, reload more quickly, and enter a flow state during which downed enemies you kill or damage spawn an energy orb. Shooting this orb refreshes your flow state and your existing shield, or grants another."
+    },
+    {
+      "slot": "Grenade",
+      "id": "contingency",
+      "display_name": "Contingency",
+      "description": "EQUIP to assemble prismatic energy. FIRE to push an indestructible wall of energy forward that blocks bullets. ALT FIRE to push out a slower version of the wall."
+    }
+  ]
+}

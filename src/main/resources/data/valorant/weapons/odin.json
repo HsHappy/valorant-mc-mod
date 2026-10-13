@@ -1,0 +1,34 @@
+{
+  "id": "odin",
+  "display_name": "Odin",
+  "category": "HEAVY WEAPONS",
+  "cost": 3200,
+  "magazine_size": 100,
+  "fire_rate_rpm": 720,
+  "fire_rate_rps": 12,
+  "reload_time_seconds": 5,
+  "equip_time_seconds": 1.25,
+  "run_speed_multiplier": 0.76,
+  "first_bullet_accuracy": 0.8,
+  "wall_penetration": "High",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 30,
+      "head": 95,
+      "body": 38,
+      "leg": 32.3
+    },
+    {
+      "min_distance_meters": 30,
+      "max_distance_meters": 50,
+      "head": 77.5,
+      "body": 31,
+      "leg": 26.4
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

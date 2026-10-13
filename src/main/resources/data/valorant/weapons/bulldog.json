@@ -1,0 +1,27 @@
+{
+  "id": "bulldog",
+  "display_name": "Bulldog",
+  "category": "ASSAULT RIFLES",
+  "cost": 2050,
+  "magazine_size": 24,
+  "fire_rate_rpm": 600,
+  "fire_rate_rps": 10,
+  "reload_time_seconds": 2.5,
+  "equip_time_seconds": 1,
+  "run_speed_multiplier": 0.8,
+  "first_bullet_accuracy": 0.3,
+  "wall_penetration": "Medium",
+  "damage_ranges": [
+    {
+      "min_distance_meters": 0,
+      "max_distance_meters": 50,
+      "head": 115.5,
+      "body": 35,
+      "leg": 29.8
+    }
+  ],
+  "recoil": {
+    "recovery_time": 0.35,
+    "max_spread": 4.5
+  }
+}

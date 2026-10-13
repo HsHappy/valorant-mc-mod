@@ -1,0 +1,32 @@
+{
+  "id": "clove",
+  "display_name": "Clove",
+  "role": "Controller",
+  "description": "Scottish troublemaker Clove makes mischief for enemies in both the heat of combat and the cold of death. The young immortal keeps foes guessing, even from beyond the grave, their return to the living only ever a moment away.",
+  "abilities": [
+    {
+      "slot": "Grenade",
+      "id": "pick_me_up",
+      "display_name": "Pick-me-up",
+      "description": "ACTIVATE to absorb the life force of a fallen enemy that Clove damaged or killed, gaining haste and temporary health."
+    },
+    {
+      "slot": "Ability2",
+      "id": "ruse",
+      "display_name": "Ruse",
+      "description": "EQUIP a view of the battlefield. FIRE to set the locations where Clove\u2019s clouds will settle. ALT FIRE to confirm, launching clouds that block vision in the chosen areas. Clove can use this ability after death."
+    },
+    {
+      "slot": "Ultimate",
+      "id": "not_dead_yet",
+      "display_name": "Not Dead Yet",
+      "description": "After dying, ACTIVATE to resurrect. Once resurrected, Clove must earn a kill or a damaging assist within a set time or they will die. REACTIVATE to cancel early."
+    },
+    {
+      "slot": "Ability1",
+      "id": "meddle",
+      "display_name": "Meddle",
+      "description": "EQUIP a fragment of immortality essence. FIRE to throw the fragment, which upon landing on the floor, erupts after a short delay and temporarily Decays all targets caught inside."
+    }
+  ]
+}
