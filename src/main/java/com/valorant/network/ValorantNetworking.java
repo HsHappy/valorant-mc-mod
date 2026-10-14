@@ -12,6 +12,7 @@ import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.network.protocol.game.ClientboundStopSoundPacket;
+import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvent;
@@ -19,6 +20,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.Mth;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.phys.Vec3;
 
 /**
  * Hardened Networking Engine for Valorant Ballistics.
@@ -134,20 +136,58 @@ public class ValorantNetworking {
         // 7. Tracers, Impacts & Bullet Holes
         TracerHelper.spawnTracer(
             level, player.getEyePosition(), result.hitLocation(),
-            result.zone() == HitscanEngine.HitZone.WALL, result.hitFace()
+            result.zone(), result.hitFace()
         );
 
         // 8. Hit Damage & Feedback Sounds
         if (result.target() != null) {
             float dmg = (float) result.damageDealt();
+            Vec3 oldVel = result.target().getDeltaMovement();
             result.target().invulnerableTime = 0;
+
+            // Apply direct damage
             result.target().hurt(player.damageSources().playerAttack(player), dmg);
 
-            if (result.zone() == HitscanEngine.HitZone.HEAD) {
-                player.playNotifySound(ValorantSounds.HEADSHOT_KILL, SoundSource.PLAYERS, 1.0f, 1.0f);
+            // Valorant Tagging: Cancel vanilla flying knockback and apply movement slow
+            result.target().setDeltaMovement(oldVel.x * 0.25, Math.min(oldVel.y, 0.0), oldVel.z * 0.25);
+            result.target().hurtMarked = true;
+            result.target().invulnerableTime = 0; // Reset invulnerability so rapid-fire spray bullets all deal damage
+
+            boolean isKilled = result.target().isDeadOrDying() || result.target().getHealth() <= 0.0f;
+
+            if (isKilled) {
+                // Kill confirmation sound
+                player.playNotifySound(SoundEvents.ARROW_HIT_PLAYER, SoundSource.PLAYERS, 1.2f, 0.8f);
+                player.playNotifySound(SoundEvents.EXPERIENCE_ORB_PICKUP, SoundSource.PLAYERS, 0.9f, 1.6f);
             } else {
-                player.playNotifySound(ValorantSounds.BODYSHOT_HIT, SoundSource.PLAYERS, 0.8f, 1.0f);
+                if (result.zone() == HitscanEngine.HitZone.HEAD) {
+                    // Crisp Headshot DINK
+                    player.playNotifySound(SoundEvents.ARROW_HIT_PLAYER, SoundSource.PLAYERS, 1.1f, 1.8f);
+                    player.playNotifySound(SoundEvents.PLAYER_ATTACK_CRIT, SoundSource.PLAYERS, 1.0f, 1.3f);
+                } else if (result.zone() == HitscanEngine.HitZone.BODY) {
+                    // Bodyshot thud
+                    player.playNotifySound(SoundEvents.PLAYER_ATTACK_KNOCKBACK, SoundSource.PLAYERS, 0.8f, 1.1f);
+                } else {
+                    // Legshot / foot thud
+                    player.playNotifySound(SoundEvents.PLAYER_ATTACK_WEAK, SoundSource.PLAYERS, 0.7f, 0.9f);
+                }
             }
+
+            // Real-time Tactical Combat Feedback for Mob & Player Testing
+            String targetName = result.target().getName().getString();
+            float remainingHp = Math.max(0.0f, result.target().getHealth());
+            String zoneTag = switch (result.zone()) {
+                case HEAD -> "§c✦ [KAFA / HEAD]";
+                case BODY -> "§6■ [GÖVDE / BODY]";
+                case LEG -> "§e▼ [BACAK-AYAK / LEGS]";
+                default -> "§7[HIT]";
+            };
+
+            String status = isKilled ? "§a§l☠ ELENDİ!" : String.format("§7(Kalan: §f%.1f HP§7)", remainingHp);
+            player.displayClientMessage(
+                Component.literal(String.format("%s §f-%.1f %s §8(%s)", zoneTag, dmg, status, targetName)),
+                true
+            );
         }
     }
 

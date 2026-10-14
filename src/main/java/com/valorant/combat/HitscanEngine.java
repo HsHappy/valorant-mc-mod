@@ -184,38 +184,49 @@ public class HitscanEngine {
     }
 
     /**
-     * Anatomical Hitbox Resolution.
-     * STRICT RATIOS PRESERVED:
-     * - Head: >= 77% height, radius <= 0.28 blocks.
-     * - Torso: >= 38% height.
-     * - Leg: < 38% height.
+     * Anatomical Hitbox Resolution for Valorant Combat (Mobs & Players).
+     *
+     * In Valorant, anatomy is divided into 3 distinct zones:
+     * 1. KAFA (Head):
+     *    - Distance to entity eye position <= 0.40m, OR
+     *    - Hit Y is in upper 28% of height (>= 72%) within head radius <= max(0.34, width * 0.55).
+     * 2. GÖVDE / VÜCUT (Body / Torso / Arms):
+     *    - From hips (>= 38% of height) up to chin (< 72% of height).
+     * 3. BACAK VE AYAK (Legs & Feet):
+     *    - From ground level (0%) up to hips (< 38% of height).
+     *    - In Valorant, legDamage covers hips, knees, shins, ankles, and feet.
      */
     private static HitZone determineHitZone(LivingEntity entity, Vec3 hitPoint, double refY, double refX, double refZ) {
         double hitY = hitPoint.y;
         double entityHeight = entity.getBbHeight();
+        double entityWidth = entity.getBbWidth();
 
         // 1. Head Zone Check:
-        // A humanoid head in Minecraft is an 8x8x8 pixel cube (0.50x0.50x0.50 blocks)
-        // Starts at ~77% of total height (from chin/eye level to crown)
-        if (hitY >= refY + entityHeight * 0.77) {
-            double dx = hitPoint.x - refX;
-            double dz = hitPoint.z - refZ;
-            double distFromCenter = Math.sqrt(dx * dx + dz * dz);
+        // Use eye position as anatomical head center
+        Vec3 eyePos = entity.getEyePosition();
+        double eyeOffsetCompX = eyePos.x + (refX - entity.getX());
+        double eyeOffsetCompY = eyePos.y + (refY - entity.getY());
+        double eyeOffsetCompZ = eyePos.z + (refZ - entity.getZ());
+        Vec3 compEyePos = new Vec3(eyeOffsetCompX, eyeOffsetCompY, eyeOffsetCompZ);
 
-            // True head radius is 0.25 blocks (+ 0.03 tolerance = 0.28)
-            if (distFromCenter <= 0.28) {
-                return HitZone.HEAD;
-            }
-            // If hit is high but wide (e.g. over the shoulder edge), count as BODY
+        double distToEye = hitPoint.distanceTo(compEyePos);
+
+        double dx = hitPoint.x - refX;
+        double dz = hitPoint.z - refZ;
+        double distFromCenter = Math.sqrt(dx * dx + dz * dz);
+        double maxHeadRadius = Math.max(0.34, entityWidth * 0.55);
+
+        boolean isHeadHeight = hitY >= (refY + entityHeight * 0.72);
+        if (distToEye <= 0.40 || (isHeadHeight && distFromCenter <= maxHeadRadius)) {
+            return HitZone.HEAD;
+        }
+
+        // 2. Torso / Body Zone (Chest, abdomen, arms):
+        if (hitY >= (refY + entityHeight * 0.38)) {
             return HitZone.BODY;
         }
 
-        // 2. Torso / Body Zone:
-        if (hitY >= refY + entityHeight * 0.38) {
-            return HitZone.BODY;
-        }
-
-        // 3. Leg Zone:
+        // 3. Leg & Feet Zone (Bacak ve Ayak - Hips, thighs, knees, shins, feet):
         return HitZone.LEG;
     }
 
